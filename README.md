@@ -1,3 +1,2 @@
-# minimal-edi-package
-Minimal EML assembly line example, including a small subset of an NES-LTER
-dataset.
+# nes-lter-attune-discrete
+NESLTER Attune flow cytometer discrete sample data package assembly.
