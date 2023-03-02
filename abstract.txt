@@ -1,2 +1,1 @@
-This is a minimal demonstration of the EDI EML assembly line workflow based on
-a small subset of NES-LTER nutrient data.
+These data represent the abundance, biovolume, and biomass of prokaryotic phytoplankton  and eukaryotic pico- and nano- phytoplankton, and the abundance of heterotrophic bacteria, from discrete flow cytometry samples collected during the Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2018. Samples were collected and preserved from each depth sampled at twelve main stations, and analyzed post cruise. 
