@@ -38,3 +38,7 @@ Attune NXT workspace (.aws) files were exported and interpreted in matlab for en
 We add CTD bottle metadata (time, latitude, longitude, depth, temperature, salinity) from the REST Application Programming Interface (API) of the NES-LTER data system.
 
 Code for data package assembly, including metadata from templates, is available on GitHub (https://github.com/WHOIGit/nes-lter-attune-fcm-discrete-transect).
+
+# References
+
+Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for dinoflagellates, diatoms, and other protist plankton. Limnology and Oceanography. 45(3): 569–579.
