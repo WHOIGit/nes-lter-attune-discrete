@@ -1,9 +1,11 @@
 
-#Sample Collection
+# CTD Rosette Bottle Sampling on NES-LTER cruises
 
 Samples were collected from the water column at multiple depths using Niskin bottles on a CTD rosette system. A small number of samples were collected at the surface with a bucket or from the ship’s underway science seawater. All samples were collected into 2 ml sterile cryovials and stored in a dark container avoiding exposure to sunlight. 
 
-Samples were then preserved using a 50/50 mix of 25% Glutaraldehyde and 2% Kolliphor P 188, for a final sample concentration of 0.125% Glutaraldehyde and 0.01% Kolliphor. Prior to May of 2019, samples were preserved with only 0.125% Glutaraldehyde. Ten minutes after addition of preservative and gentle mixing, samples were flash frozen in liquid nitrogen where they remained until analysis. 
+# Sample preservation
+
+Samples were brought into lab and preserved using a 50/50 mix of 25% Glutaraldehyde and 2% Kolliphor P 188, for a final sample concentration of 0.125% Glutaraldehyde and 0.01% Kolliphor. Prior to May of 2019, samples were preserved with only 0.125% Glutaraldehyde. Ten minutes after addition of preservative and gentle mixing, samples were flash frozen in liquid nitrogen where they remained until analysis. 
 
 #Sample processing 
 
@@ -13,7 +15,7 @@ A ThermoFisher Attune NxT Flow Cytometer equipped  with two lasers, green (532 n
 
 Each discrete sample was analyzed with 2-3 different configurations shown in the table Settings_configuration_history_discrete_analysis. The specific fcs file used for analysis is listed in the data table. 
 
-#Instrument Configuration and Settings - with associated Attune document 
+#Instrument configuration and calibration 
 
 Instrument configuration settings and calibration are provided in the Settings_configuration_history_discrete_analysis file. The table has a row for each run type used for each research cruise, showing relevant instrument settings or major changes in optical filter configuration, bead runs for calibration, cruise sample collection date, and range of analysis dates.
 
@@ -33,9 +35,9 @@ Cells were identified and enumerated from the flow cytometry data files based on
 
 Attune NXT workspace (.aws) files were exported and interpreted in matlab for enumeration.The size of each cell was estimated from side-angle light scattering. Side scattering signals were normalized using the side scattering signal of 1-um beads (Flow Check High Intensity Alignment Grade Particles, Polysciences) which were part of the bead mix that was run daily during analysis. Bead-normalized scattering signals were converted to cell volume estimates based on a calibration curve derived from phytoplankton cultures independently sized on a Coulter Multisizer. Finally, cell volume was converted to cell carbon following the relationships described by Menden-Deuer and Lessard (2000).
 
-#Data Package Assembly and Cleaning
+#Data Package Assembly 
 
-We add CTD bottle metadata (time, latitude, longitude, depth, temperature, salinity) from the REST Application Programming Interface (API) of the NES-LTER data system.
+We add CTD bottle metadata (time, latitude, longitude, depth, potential temperature, salinity) from the REST Application Programming Interface (API) of the NES-LTER data system.
 
 Code for data package assembly, including metadata from templates, is available on GitHub (https://github.com/WHOIGit/nes-lter-attune-fcm-discrete-transect).
 
