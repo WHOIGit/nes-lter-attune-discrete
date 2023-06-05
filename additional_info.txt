@@ -1,0 +1,2 @@
+Special thanks to the Ocean Observatories Initiative (OOI) funded by the National Science Foundation under Cooperative Agreement No. 1743430 for collaboration on the cruises on R/V Neil Armstrong cruises AR39B and AR61B included in this package. This data package includes data from MIT-WHOI Joint Program (JP) cruise AR38 funded by WHOI Academic Programs Office, with Chief Scientists Glen Gawarkiewicz.
+ 
