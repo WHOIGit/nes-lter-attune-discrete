@@ -1,7 +1,7 @@
 ---
-title: "NESLTER Attune flow cytometer discrete sample data package assembly."
-author: "Joe Futrelle"
-date: "2023-03-21"
+title: "NESLTER Attune flow cytometer discrete sample data package assembly"
+author: "Stace Beaulieu"
+date: "2023-09-26"
 output: html_notebook
 ---
 
@@ -19,7 +19,7 @@ library(here)
 library(lubridate)
 ```
 
-Read example data table
+Read data table
 
 ```{r}
 data_table <- read.csv(here('attune-transect-discrete-samples.csv'))
@@ -30,20 +30,20 @@ Read the Excel metadata template and generate text templates used by
 EMLassemblyline
 
 ```{r}
-excel_to_template(here('nes-lter-attune-fcm-discrete-transect-info'), 'attune-transect-discrete-samples', rights='CC0')
+excel_to_template(here('nes-lter-attune-fcm-discrete-transect-info'), 'attune-transect-discrete-samples', rights='CCBY')
 ```
 Generate the package and insert the parent project node into the resulting EML
 
 ```{r}
-# use a dummy package ID
+# use designated package ID
 pkg_id <- 'knb-lter-nes.29.1'
 
 make_eml(here(),
-         dataset.title='Demonstration of minimal EDI package',
+         dataset.title='Abundance, biovolume, and biomass of Synechococcus, eukaryote pico- and nano- phytoplankton, and heterotrophic bacteria from flow cytometry for preserved water column bottle samples on NES-LTER Transect cruises, ongoing since 2018',
          data.table='attune-transect-discrete-samples.csv',
-         data.table.description='Example NES-LTER data',
-         data.table.name = 'Subset of NES-LTER nutrient data',
-         temporal.coverage = temporal_coverage(data_table$date),
+         data.table.description='Data table with picoeuk and Syn cell, biovolume, and biomass concentration and heterotrophic bacteria cell concentration and time and position sampled',
+         data.table.name = 'attune-transect-discrete-samples',
+         temporal.coverage = temporal_coverage(data_table$date_sampled),
          geographic.description = "NES-LTER Transect",
          geographic.coordinates = geographic_coordinates(data_table$latitude, data_table$longitude),
          maintenance.description = "ongoing",
