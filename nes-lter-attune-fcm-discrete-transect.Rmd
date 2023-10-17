@@ -1,7 +1,7 @@
 ---
-title: "NESLTER Attune flow cytometer discrete sample data package assembly"
+title: "NES-LTER Attune flow cytometer discrete sample data package assembly"
 author: "Stace Beaulieu"
-date: "2023-09-26"
+date: "2023-10-17"
 output: html_notebook
 ---
 
@@ -39,9 +39,9 @@ Generate the package and insert the parent project node into the resulting EML
 pkg_id <- 'knb-lter-nes.29.1'
 
 make_eml(here(),
-         dataset.title='Abundance, biovolume, and biomass of Synechococcus, eukaryote pico- and nano- phytoplankton, and heterotrophic bacteria from flow cytometry for preserved water column bottle samples on NES-LTER Transect cruises, ongoing since 2018',
+         dataset.title='Abundance, biovolume, and biomass of Synechococcus, eukaryote pico- and nano- phytoplankton, and heterotrophic bacteria from flow cytometry for water column bottle samples on NES-LTER Transect cruises, ongoing since 2018',
          data.table='attune-transect-discrete-samples.csv',
-         data.table.description='Data table with picoeuk and Syn cell, biovolume, and biomass concentration and heterotrophic bacteria cell concentration and time and position sampled',
+         data.table.description='Data table with Syn, picoeuk, and heterotrophic bacteria cell, biovolume, and biomass concentration and time and position sampled',
          data.table.name = 'attune-transect-discrete-samples',
          temporal.coverage = temporal_coverage(data_table$date_sampled),
          geographic.description = "NES-LTER Transect",
@@ -49,7 +49,9 @@ make_eml(here(),
          maintenance.description = "ongoing",
          user.id = "NES",
          user.domain = "LTER",
+         other.entity = c("Settings_configuration_history_discrete_analysis.csv"),
+         other.entity.description = c("Metadata for instrument settings configuration"),
          package.id = pkg_id)
 
-project_insert(edi_pkg = pkg_id, "parent_project_RAPID.txt")
+project_insert(edi_pkg = pkg_id, "parent_project_SPIROPA_RAPID.xml")
 ```

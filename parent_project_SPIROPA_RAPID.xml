@@ -1,4 +1,4 @@
- <project>
+    <project>
       <title>Northeast U.S. Shelf LTER</title>
       <personnel>
         <individualName>
@@ -96,6 +96,18 @@
       <funding>
         <para>NSF Award OCE-1655686</para>
       </funding>
+	  <relatedProject>
+	    <title>Collaborative Research: Shelfbreak frontal dynamics: mechanisms of upwelling, net community production, and ecological implications (SPIROPA)</title>
+		<personnel>
+		  <individualName>
+		    <givenName>Dennis</givenName>
+			<surName>McGillicuddy</surName>
+		  </individualName>
+		  <electronicMailAddress>dmcgillicuddy@whoi.edu</electronicMailAddress>
+		  <role>Principal Investigator</role>
+		</personnel>
+		<funding>NSF Award OCE-1657489</funding>
+	  </relatedProject>
 	  <relatedProject>
 	    <title>RAPID: Collaborative Research: Autumn transition in plankton ecology during an ocean heatwave on the Northeast U.S. Shelf</title>
 		<personnel>
