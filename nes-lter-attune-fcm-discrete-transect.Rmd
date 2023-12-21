@@ -1,7 +1,7 @@
 ---
 title: "NES-LTER Attune flow cytometer discrete sample data package assembly"
 author: "Stace Beaulieu"
-date: "2023-10-17"
+date: "2023-12-21"
 output: html_notebook
 ---
 
@@ -22,15 +22,16 @@ library(lubridate)
 Read data table
 
 ```{r}
-data_table <- read.csv(here('attune-transect-discrete-samples.csv'))
+data_table <- read.csv(here('attune-transect-discrete-samples-stations.csv'))
 #data_table$date = ymd_hms(data_table$date)
+summary(data_table)
 ```
 
 Read the Excel metadata template and generate text templates used by
 EMLassemblyline
 
 ```{r}
-excel_to_template(here('nes-lter-attune-fcm-discrete-transect-info'), 'attune-transect-discrete-samples', rights='CCBY')
+excel_to_template(here('nes-lter-attune-fcm-discrete-transect-info'), 'attune-transect-discrete-samples-stations', rights='CCBY')
 ```
 Generate the package and insert the parent project node into the resulting EML
 
@@ -40,9 +41,9 @@ pkg_id <- 'knb-lter-nes.29.1'
 
 make_eml(here(),
          dataset.title='Abundance, biovolume, and biomass of Synechococcus, eukaryote pico- and nano- phytoplankton, and heterotrophic bacteria from flow cytometry for water column bottle samples on NES-LTER Transect cruises, ongoing since 2018',
-         data.table='attune-transect-discrete-samples.csv',
+         data.table='attune-transect-discrete-samples-stations.csv',
          data.table.description='Data table with Syn, picoeuk, and heterotrophic bacteria cell, biovolume, and biomass concentration and time and position sampled',
-         data.table.name = 'attune-transect-discrete-samples',
+         data.table.name = 'attune-transect-discrete-samples-stations',
          temporal.coverage = temporal_coverage(data_table$date_sampled),
          geographic.description = "NES-LTER Transect",
          geographic.coordinates = geographic_coordinates(data_table$latitude, data_table$longitude),
@@ -53,5 +54,5 @@ make_eml(here(),
          other.entity.description = c("Metadata for instrument settings configuration"),
          package.id = pkg_id)
 
-project_insert(edi_pkg = pkg_id, "parent_project_SPIROPA_RAPID.xml")
+project_insert(edi_pkg = pkg_id, "parent_project_II_I_RAPID_SPIROPA.txt")
 ```

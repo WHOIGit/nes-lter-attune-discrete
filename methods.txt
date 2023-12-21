@@ -12,7 +12,7 @@ Samples were thawed immediately prior to analysis. Each sample was pulled by syr
 
 A ThermoFisher Attune NxT Flow Cytometer equipped  with two lasers, green (532 nm, 100mW) and blue (488 nm, 50mW) was used for analysis. The flow cytometer focus fluid (sheath) was milli Q water with 3% Sodium chloride (30 ppt) and 0.1% 2-Phenoxyethanol. For quality control, the Attune flow cytometer Performance test (bead REF# 4449754) was run at least once per week and a beads mix (see recipe), was run daily for normalized size calibration. Instrument cleaning was performed at the end of each analysis day using 25% Hellmanex III detergent. 
 
-Each discrete sample was analyzed with 2-3 different configurations shown in the table Settings_configuration_history_discrete_analysis. The specific fcs file used for quantification of each cell type is listed in the data table. Often multiple cell types were quantified with the same fcs file. FCS files are provifded in zipped files organized by cruise.
+Each discrete sample was analyzed with 2-3 different configurations shown in the table Settings_configuration_history_discrete_analysis. The specific fcs file used for quantification of each cell type is listed in the data table. Often multiple cell types were quantified with the same fcs file. FCS files are provided in zipped files organized by cruise.
 
 #Instrument configuration and calibration 
 
@@ -38,7 +38,7 @@ For all sample runs, the first 20 percent of the volume was omitted from analysi
 
 # Quality control
 
-During the manual gating process, if data quality appears poor, gating information (.aws file) is not exported, and data subsequently are not reported. Although this is rare, reasons would be obvious Attune malfunction or lack of preservative. After all manual gates (.aws files) are exported, they are processed with matlab matching them to corresponding .fcs files. In this step, we generated a list of fcs files that did not match to an aws file and ensured the list is as expected. Next, we cross referenced the list of gated samples with our cruise sample log and corrected any mistakes. Finally, we output .pngs of cytograms generated from the matlab processing of fcs and aws files to check for and correct gating errors. At each step, we reprocessed as needed.
+During the manual gating process, if data quality appears poor, gating information (.aws file) is not exported, and data subsequently are not reported. Although this is rare, reasons would be obvious Attune malfunction or lack of preservative. After all manual gates (.aws files) are exported, they are processed with matlab matching them to corresponding .fcs files. In this step, we generated a list of fcs files that did not match to an aws file and ensured the list is as expected. Next, we cross referenced the list of gated samples with our cruise sample log and corrected any mistakes; for example if the log indicates that an alternate niskin was used when that in the filename misfired. The filenames themselves are unchanged during this manual reassignment, so the adjustments are trackable by comparing the filenames to the cast and niskin columns. Finally, we output .pngs of cytograms generated from the matlab processing of fcs and aws files to check for and correct gating errors. At each step, we reprocessed as needed.
 
 #Data Package Assembly 
 
