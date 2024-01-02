@@ -1,7 +1,7 @@
 ---
 title: "NES-LTER Attune flow cytometer discrete sample data package assembly"
 author: "Stace Beaulieu"
-date: "2023-12-21"
+date: "2024-01-02"
 output: html_notebook
 ---
 
@@ -52,6 +52,34 @@ make_eml(here(),
          user.domain = "LTER",
          other.entity = c("Settings_configuration_history_discrete_analysis.csv"),
          other.entity.description = c("Metadata for instrument settings configuration"),
+         # other.entity = c("Settings_configuration_history_discrete_analysis.csv",
+         #                  "AR38_attune_fcs.zip",
+         #                  "AR39B_attune_fcs.zip",
+         #                  "AR61B_attune_fcs.zip",
+         #                  "AT46_attune_fcs.zip",
+         #                  "EN608_attune_fcs.zip",
+         #                  "EN644_attune_fcs.zip",
+         #                  "EN649_attune_fcs.zip",
+         #                  "EN655_attune_fcs.zip",
+         #                  "EN657_attune_fcs.zip",
+         #                  "EN661_attune_fcs.zip",
+         #                  "EN668_attune_fcs.zip",
+         #                  "TN368_attune_fcs.zip"
+         # ),
+         # other.entity.description = c("Metadata for instrument settings configuration",
+         #                              "raw FCS datafiles from Cruise AR38",
+         #                              "raw FCS datafiles from Cruise AR39B",
+         #                              "raw FCS datafiles from Cruise AR61B",
+         #                              "raw FCS datafiles from Cruise AT46",
+         #                              "raw FCS datafiles from Cruise EN608",
+         #                              "raw FCS datafiles from Cruise EN644",
+         #                              "raw FCS datafiles from Cruise EN649",
+         #                              "raw FCS datafiles from Cruise EN655",
+         #                              "raw FCS datafiles from Cruise EN657",
+         #                              "raw FCS datafiles from Cruise EN661",
+         #                              "raw FCS datafiles from Cruise EN668",
+         #                              "raw FCS datafiles from Cruise TN368"
+         # ),
          package.id = pkg_id)
 
 project_insert(edi_pkg = pkg_id, "parent_project_II_I_RAPID_SPIROPA.txt")
