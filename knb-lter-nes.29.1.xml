@@ -59,9 +59,9 @@
       <electronicMailAddress>jfutrelle@whoi.edu</electronicMailAddress>
       <role>softwareDeveloper</role>
     </associatedParty>
-    <pubDate>2024-01-02</pubDate>
+    <pubDate>2024-01-05</pubDate>
     <abstract>
-      <para>These data represent the abundance, biovolume, and biomass of prokaryotic phytoplankton, eukaryotic pico- and nano- phytoplankton, and heterotrophic bacteria from discrete flow cytometry samples collected during the Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2018. Samples were collected and preserved from each depth sampled at twelve main stations, and analyzed post cruise. Cells were identified and enumerated from the flow cytometry data files based on their scattering, SYBR (525 nm), phycoerythrin (575 nm) and chlorophyll (680 nm) fluorescence signals. Gating was completed manually in the Attune NXT software interface. 
+      <para>These data represent the abundance, biovolume, and biomass of prokaryotic phytoplankton, eukaryotic pico- and nano- phytoplankton, and heterotrophic bacteria from discrete flow cytometry samples collected during the Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2018. Samples were collected and preserved from the water column at multiple depths using Niskin bottles on a CTD rosette system along the NES-LTER transect, and analyzed post cruise. Cells were identified and enumerated from the flow cytometry data files based on their scattering, SYBR (525 nm), phycoerythrin (575 nm) and chlorophyll (680 nm) fluorescence signals. Gating was completed manually in the Attune NXT software interface. 
 </para>
     </abstract>
     <keywordSet>
@@ -311,12 +311,12 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
       </relatedProject>
     </project>
     <dataTable>
-      <entityName>attune-transect-discrete-samples-stations</entityName>
-      <entityDescription>Data table with Syn, picoeuk, and heterotrophic bacteria cell, biovolume, and biomass concentration and time and position sampled</entityDescription>
+      <entityName>attune-transect-discrete-samples</entityName>
+      <entityDescription>Syn, picoeuk, and heterotrophic bacteria cell, biovolume, and biomass concentration from discrete water column samples on NES-LTER cruises</entityDescription>
       <physical>
-        <objectName>attune-transect-discrete-samples-stations.csv</objectName>
-        <size unit="bytes">557246</size>
-        <authentication method="MD5">18db8f14393824933ccd8399f30cf87c</authentication>
+        <objectName>attune-transect-discrete-samples.csv</objectName>
+        <size unit="bytes">557251</size>
+        <authentication method="MD5">c5f29b15d9f935dd3b49f32bd93c3bcb</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -922,7 +922,7 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
         </attribute>
         <attribute>
           <attributeName>redeuk_leq_20um_cells_per_ml</attributeName>
-          <attributeDefinition>abundance per milliliter of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
+          <attributeDefinition>abundance per milliliter of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton cells less than 20 um in diameter including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
           <storageType>float</storageType>
           <measurementScale>
             <ratio>
@@ -945,7 +945,7 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
         </attribute>
         <attribute>
           <attributeName>redeuk_leq_20um_biovolume_concentration</attributeName>
-          <attributeDefinition>cubic micrometers per milliliter of seawater of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
+          <attributeDefinition>cubic micrometers per milliliter of seawater of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton cells less than 20 um in diameter including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
           <storageType>float</storageType>
           <measurementScale>
             <ratio>
@@ -968,7 +968,7 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
         </attribute>
         <attribute>
           <attributeName>redeuk_leq_20um_carbon_concentration</attributeName>
-          <attributeDefinition>micrograms of carbon per liter of seawater of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
+          <attributeDefinition>micrograms of carbon per liter of seawater of all measured eukaryote (urn:lsid:algaebase.org:taxname:86701) phytoplankton cells less than 20 um in diameter including cells counted in previous columns http://vocab.nerc.ac.uk/collection/F02/current/F0200004/ and http://vocab.nerc.ac.uk/collection/F02/current/F0200005/</attributeDefinition>
           <storageType>float</storageType>
           <measurementScale>
             <ratio>
@@ -1169,7 +1169,7 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
           </missingValueCode>
         </attribute>
         <attribute>
-          <attributeName>distance_km</attributeName>
+          <attributeName>station_distance</attributeName>
           <attributeDefinition>distance from sample location to nearest NES-LTER station</attributeDefinition>
           <storageType>float</storageType>
           <measurementScale>
@@ -1199,8 +1199,8 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
       <entityDescription>Metadata for instrument settings configuration</entityDescription>
       <physical>
         <objectName>Settings_configuration_history_discrete_analysis.csv</objectName>
-        <size unit="bytes">7993</size>
-        <authentication method="MD5">e2a5b912cedf5e3de46e764c485af82a</authentication>
+        <size unit="bytes">8004</size>
+        <authentication method="MD5">26953831b76ab6b5ac9c2e673d2a3a97</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>text/csv</formatName>
