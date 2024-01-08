@@ -39,6 +39,15 @@ Generate the package and insert the parent project node into the resulting EML
 # use designated package ID
 pkg_id <- 'knb-lter-nes.29.1'
 
+# Because EDI has a file upload limit of 500 MB and our tar files are larger,
+# dummy tar files were created in order to run the make_eml.
+# After the make_eml is run, the output EML file was manually
+# edited to enter the actual tar file checksums and file sizes instead of the
+# dummy checksums and file sizes.
+
+# WARNING!!! - if the make_eml is rerun, the manually edited checksums and file
+#              sizes in knb-lter-nes.29.1 will be overwritten.
+
 make_eml(here(),
          dataset.title='Abundance, biovolume, and biomass of Synechococcus, eukaryote pico- and nano- phytoplankton, and heterotrophic bacteria from flow cytometry for water column bottle samples on NES-LTER Transect cruises, ongoing since 2018',
          data.table='attune-transect-discrete-samples.csv',
@@ -50,36 +59,34 @@ make_eml(here(),
          maintenance.description = "ongoing",
          user.id = "NES",
          user.domain = "LTER",
-         other.entity = c("Settings_configuration_history_discrete_analysis.csv"),
-         other.entity.description = c("Metadata for instrument settings configuration"),
-         # other.entity = c("Settings_configuration_history_discrete_analysis.csv",
-         #                  "AR38_attune_fcs.zip",
-         #                  "AR39B_attune_fcs.zip",
-         #                  "AR61B_attune_fcs.zip",
-         #                  "AT46_attune_fcs.zip",
-         #                  "EN608_attune_fcs.zip",
-         #                  "EN644_attune_fcs.zip",
-         #                  "EN649_attune_fcs.zip",
-         #                  "EN655_attune_fcs.zip",
-         #                  "EN657_attune_fcs.zip",
-         #                  "EN661_attune_fcs.zip",
-         #                  "EN668_attune_fcs.zip",
-         #                  "TN368_attune_fcs.zip"
-         # ),
-         # other.entity.description = c("Metadata for instrument settings configuration",
-         #                              "raw FCS datafiles from Cruise AR38",
-         #                              "raw FCS datafiles from Cruise AR39B",
-         #                              "raw FCS datafiles from Cruise AR61B",
-         #                              "raw FCS datafiles from Cruise AT46",
-         #                              "raw FCS datafiles from Cruise EN608",
-         #                              "raw FCS datafiles from Cruise EN644",
-         #                              "raw FCS datafiles from Cruise EN649",
-         #                              "raw FCS datafiles from Cruise EN655",
-         #                              "raw FCS datafiles from Cruise EN657",
-         #                              "raw FCS datafiles from Cruise EN661",
-         #                              "raw FCS datafiles from Cruise EN668",
-         #                              "raw FCS datafiles from Cruise TN368"
-         # ),
+         other.entity = c("Settings_configuration_history_discrete_analysis.csv",
+                           "AR38_attune_fcs.zip",
+                           "AR39B_attune_fcs.zip",
+                           "AR61B_attune_fcs.zip",
+                           "AT46_attune_fcs.zip",
+                           "EN608_attune_fcs.zip",
+                           "EN644_attune_fcs.zip",
+                           "EN649_attune_fcs.zip",
+                           "EN655_attune_fcs.zip",
+                           "EN657_attune_fcs.zip",
+                           "EN661_attune_fcs.zip",
+                           "EN668_attune_fcs.zip",
+                           "TN368_attune_fcs.zip"
+          ),
+          other.entity.description = c("Metadata for instrument settings configuration",
+                                       "raw FCS datafiles from Cruise AR38",
+                                       "raw FCS datafiles from Cruise AR39B",
+                                       "raw FCS datafiles from Cruise AR61B",
+                                       "raw FCS datafiles from Cruise AT46",
+                                       "raw FCS datafiles from Cruise EN608",
+                                       "raw FCS datafiles from Cruise EN644",
+                                       "raw FCS datafiles from Cruise EN649",
+                                       "raw FCS datafiles from Cruise EN655",
+                                       "raw FCS datafiles from Cruise EN657",
+                                       "raw FCS datafiles from Cruise EN661",
+                                       "raw FCS datafiles from Cruise EN668",
+                                       "raw FCS datafiles from Cruise TN368"
+          ),
          package.id = pkg_id)
 
 project_insert(edi_pkg = pkg_id, "parent_project_II_I_RAPID_SPIROPA.txt")
