@@ -1214,180 +1214,180 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
       <entityDescription>raw FCS datafiles from Cruise AR38</entityDescription>
       <physical>
         <objectName>AR38_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">819611096</size>
+        <authentication method="MD5">9dc38d5bcd91079cb90696c96b2c3a64</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>AR39B_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AR39B</entityDescription>
       <physical>
         <objectName>AR39B_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">634685042</size>
+        <authentication method="MD5">64568843fd0c53fc560b572a655c77e3</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>AR61B_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AR61B</entityDescription>
       <physical>
         <objectName>AR61B_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">985720634</size>
+        <authentication method="MD5">ba9cba0259455475f3a590f48f09534a</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>AT46_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AT46</entityDescription>
       <physical>
         <objectName>AT46_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">823125608</size>
+        <authentication method="MD5">7b6e7d8355c96d54ed3ce9f056ff4199</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN608_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN608</entityDescription>
       <physical>
         <objectName>EN608_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">523280724</size>
+        <authentication method="MD5">fd56a79c279aa08150cbd50df1ffe4b7</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN644_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN644</entityDescription>
       <physical>
         <objectName>EN644_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">1108234806</size>
+        <authentication method="MD5">46b3321a533aba9b1d6fe19ec4227003</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN649_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN649</entityDescription>
       <physical>
         <objectName>EN649_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">752360470</size>
+        <authentication method="MD5">8dee86bebb554e1a001ea3257c0c37ad</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN655_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN655</entityDescription>
       <physical>
         <objectName>EN655_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">940884386</size>
+        <authentication method="MD5">b3eab83250b35336b6d7a5d49cdf2db1</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN657_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN657</entityDescription>
       <physical>
         <objectName>EN657_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">1038582834</size>
+        <authentication method="MD5">8c75d5cda5fe107a73a1dffe74aab08a</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN661_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN661</entityDescription>
       <physical>
         <objectName>EN661_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">586811860</size>
+        <authentication method="MD5">85bd07889d433d81667cca857d0c0ce6</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>EN668_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN668</entityDescription>
       <physical>
         <objectName>EN668_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">1055836854</size>
+        <authentication method="MD5">788739683af750395a694c64f4608ef5</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
       <entityName>TN368_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise TN368</entityDescription>
       <physical>
         <objectName>TN368_attune_fcs.zip</objectName>
-        <size unit="bytes">120</size>
-        <authentication method="MD5">e5d118e5406c85f0a945c31045dd2ba5</authentication>
+        <size unit="bytes">4220084460</size>
+        <authentication method="MD5">fa7a60f2aa7f781bdfb945a9fc5ca386</authentication>
         <dataFormat>
           <externallyDefinedFormat>
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
       </physical>
-      <entityType>unknown</entityType>
+      <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
   </dataset>
   <additionalMetadata>
