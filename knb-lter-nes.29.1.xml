@@ -1210,7 +1210,7 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
       <entityType>unknown</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/AR38_attune_fcs.zip</entityName>
+      <entityName>AR38_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AR38</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/AR38_attune_fcs.zip</objectName>
@@ -1221,11 +1221,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/AR38_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/AR39B_attune_fcs.zip</entityName>
+      <entityName>AR39B_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AR39B</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/AR39B_attune_fcs.zip</objectName>
@@ -1236,11 +1241,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/AR39B_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/AR61B_attune_fcs.zip</entityName>
+      <entityName>AR61B_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AR61B</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/AR61B_attune_fcs.zip</objectName>
@@ -1251,11 +1261,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/AR61B_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/AT46_attune_fcs.zip</entityName>
+      <entityName>AT46_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise AT46</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/AT46_attune_fcs.zip</objectName>
@@ -1266,11 +1281,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/AT46_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN608_attune_fcs.zip</entityName>
+      <entityName>EN608_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN608</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN608_attune_fcs.zip</objectName>
@@ -1281,11 +1301,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN608_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN644_attune_fcs.zip</entityName>
+      <entityName>EN644_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN644</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN644_attune_fcs.zip</objectName>
@@ -1296,11 +1321,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN644_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN649_attune_fcs.zip</entityName>
+      <entityName>EN649_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN649</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN649_attune_fcs.zip</objectName>
@@ -1311,11 +1341,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN649_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN655_attune_fcs.zip</entityName>
+      <entityName>EN655_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN655</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN655_attune_fcs.zip</objectName>
@@ -1326,11 +1361,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN655_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN657_attune_fcs.zip</entityName>
+      <entityName>EN657_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN657</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN657_attune_fcs.zip</objectName>
@@ -1341,11 +1381,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN657_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN661_attune_fcs.zip</entityName>
+      <entityName>EN661_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN661</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN661_attune_fcs.zip</objectName>
@@ -1356,11 +1401,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN661_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/EN668_attune_fcs.zip</entityName>
+      <entityName>EN668_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise EN668</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/EN668_attune_fcs.zip</objectName>
@@ -1371,11 +1421,16 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/EN668_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
     <otherEntity>
-      <entityName>https://nis.lternet.edu/data/NES/TN368_attune_fcs.zip</entityName>
+      <entityName>TN368_attune_fcs.zip</entityName>
       <entityDescription>raw FCS datafiles from Cruise TN368</entityDescription>
       <physical>
         <objectName>https://nis.lternet.edu/data/NES/TN368_attune_fcs.zip</objectName>
@@ -1386,6 +1441,11 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>application/zip</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/TN368_attune_fcs.zip</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>Flow Cytometry Standard data files</entityType>
     </otherEntity>
