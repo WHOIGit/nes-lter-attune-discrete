@@ -327,6 +327,11 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             </simpleDelimited>
           </textFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/attune-transect-discrete-samples.csv</url>
+          </online>
+        </distribution>
       </physical>
       <attributeList>
         <attribute>
@@ -1206,6 +1211,11 @@ Menden-Deuer, S. and Lessard, E.J. (2000) Carbon to volume relationships for din
             <formatName>text/csv</formatName>
           </externallyDefinedFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://nis.lternet.edu/data/NES/Settings_configuration_history_discrete_analysis.csv</url>
+          </online>
+        </distribution>
       </physical>
       <entityType>unknown</entityType>
     </otherEntity>
