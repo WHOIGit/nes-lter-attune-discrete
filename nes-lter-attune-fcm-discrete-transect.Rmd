@@ -44,6 +44,9 @@ pkg_id <- 'knb-lter-nes.29.1'
 # After the make_eml is run, the output EML file was manually
 # edited to enter the actual tar file checksums and file sizes instead of the
 # dummy checksums and file sizes.
+# EDI requires that all (or none) entities be at ‘online’ distribution for evaluation.
+# The eml file was manually edited to include the full online url of the two .csv files,
+# along with their file sizes and checksums.
 
 # WARNING!!! - if the make_eml is rerun, the manually edited checksums and file
 #              sizes in knb-lter-nes.29.1 will be overwritten.
